@@ -1,0 +1,49 @@
+.overflow{
+    position: fixed;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 20;
+    height: 100%;
+    width: 100%;
+}
+
+.popup{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    z-index: 30;
+    width: 30%;
+    flex-direction: column;
+    padding: 2rem;
+    border-radius: 8px;
+    margin: 11.5% 33%;
+}
+.popup-heading{
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-bottom: 1px solid lightgray;
+}
+.popup-form{
+    display: flex;
+    flex-direction: column;
+}
+.popup-button{
+    margin-top: 1rem;
+    background-color: darkblue;
+    color: white;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.5rem 1rem;
+}
+.popup-label{
+    padding: 0.5rem 0rem;
+}
+.popup-input{
+    padding: 0.3rem;
+}
+.popup-select{
+    height: 2rem;
+}

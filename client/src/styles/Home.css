@@ -1,0 +1,23 @@
+.home{
+    overflow-x: hidden;
+    color: white;
+    overflow-y: hidden;
+}
+.home-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.home-projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    font-size: 1.5rem;
+}
+.navbar-desc{
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: lightgray;
+}

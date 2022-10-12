@@ -1,0 +1,17 @@
+.project{
+    display: flex;
+    border: 2px solid lightgray;
+    border-radius: 8px;
+    padding: 2rem 2rem;
+    flex-direction: column;
+    width: 21%;
+    margin-left: 35%;
+    margin-top: 5%;
+    text-align: start;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: white;
+}
+.project-heading{
+    text-align: start;
+}
